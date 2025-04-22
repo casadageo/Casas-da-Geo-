@@ -1,0 +1,132 @@
+/* Resetando margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Banner */
+.banner {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Seção de imóveis */
+.imoveis {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.imoveis h2 {
+  margin-bottom: 20px;
+}
+
+.imoveis .imovel {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imoveis .imovel img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.imoveis .imovel h3 {
+  margin-top: 10px;
+}
+
+.imoveis .imovel p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Seção de contato */
+.contato {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contato form {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contato form label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.contato form input,
+.contato form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contato form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contato form button:hover {
+  background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
